@@ -150,4 +150,4 @@ my.summary(Pulse[Age <= 25])
 my.summary(Pulse[Exer=="Freq"])
 
 # d)
-# my.summary(Pulse[Smoke=="Never" && Exer=="Freq"])
+my.summary(Pulse[Smoke=="Never" & Exer=="Freq"])
